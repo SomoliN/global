@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer');
+var puppeteer = require('puppeteer');
 
 async function searchForPhotos(url) {
     let browser = await puppeteer.launch();
