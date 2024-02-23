@@ -1,1 +1,1 @@
-# global mind
+# global mind float
