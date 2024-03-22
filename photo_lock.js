@@ -1,8 +1,8 @@
 var puppeteer = require('puppeteer');
 
 async function searchForPhotos(url) {
-    let browser = await puppeteer.launch();
-    let page = await browser.newPage();
+    var browser = await puppeteer.launch();
+    var page = await browser.newPage();
     await page.goto(url);
   const imageUrls = await page.evaluate(() => {
         let images = Array.from(document.getElementsByTagName('img'));
