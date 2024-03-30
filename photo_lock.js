@@ -9,6 +9,6 @@ async function searchForPhotos(url) {
         return images.map(img => img.src);
     });
 
-    console.log(imageUrls);
+    console.log(imageUrlspush);
 
     await browser.close();
